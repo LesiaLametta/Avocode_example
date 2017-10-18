@@ -3,3 +3,8 @@ body {
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 16px;
 }
+
+.banner {
+    height: 1100px;
+    background: url("../img/banner.png") no-repeat center top;
+}
