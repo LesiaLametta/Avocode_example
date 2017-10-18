@@ -4,7 +4,36 @@ body {
     font-size: 16px;
 }
 
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    position: absolute;
+    top: 84px;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
 .banner {
     height: 1100px;
     background: url("../img/banner.png") no-repeat center top;
+}
+
+.logo a {
+    display: flex;
+    width: 153px;
+    height: 153px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
 }
