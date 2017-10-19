@@ -5,8 +5,9 @@ body {
 }
 
 .wrapper {
-    max-width: 1170px;
+    max-width: 1250px;
     margin: 0 auto;
+    padding: 0 40px;
 }
 
 h1 {
@@ -40,6 +41,8 @@ h6 {
     line-height: 25px;
     text-transform: uppercase;
 }
+
+
 
 
 
@@ -166,6 +169,8 @@ header {
 
 
 
+
+
 /*Banner*/
 
 .banner {
@@ -222,6 +227,8 @@ header {
 .about-wrap {
     display: flex;
     align-items: flex-start;
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 120px;
 }
 
 .about-wrap-content {
