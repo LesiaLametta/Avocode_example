@@ -63,6 +63,11 @@ h6 {
 
 
 
+
+
+
+
+
 /*buttons*/
 
 .btn {
@@ -157,6 +162,11 @@ header {
 .menu_link:hover {
     color: #0d0d0d;
 }
+
+
+
+
+
 
 
 
@@ -299,6 +309,11 @@ header {
 
 
 
+
+
+
+
+
 /*box skills*/
 
 .box-skills {
@@ -324,6 +339,11 @@ header {
 .box-skills_item--content {
     padding-left: 35px;
 }
+
+
+
+
+
 
 
 /*bars*/
@@ -363,4 +383,67 @@ header {
 .bars-line>div {
     height: 10px;
     background: #f49d09;
+}
+
+
+
+
+
+
+/*quotes*/
+
+.box-quote {
+    padding: 250px 0;
+    background: url("../img/quote.png") no-repeat center top;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+
+.quote_text {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+    position: relative;
+    padding: 0 70px;
+    margin-bottom: 30px;
+}
+
+.quote_text:after,
+.quote_text:before {
+    content: '"';
+    display: block;
+    color: #ffffff;
+    font-size: 110px;
+    font-weight: 700;
+    line-height: 60px;
+    font-style: italic;
+    position: absolute;
+    top: 0;
+}
+
+.quote_text:before {
+    left: 0;
+}
+
+.quote_text:after {
+    right: 0;
+}
+
+.quote_author {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.quote_author:before {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #f39c12;
+    margin: 0 auto 20px;
 }
