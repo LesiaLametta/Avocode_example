@@ -31,9 +31,9 @@ header {
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 45px;
     font-weight: 700;
-    line-height: 25px;
+    line-height: 45px;
     text-transform: uppercase;
 }
