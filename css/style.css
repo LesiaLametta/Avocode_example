@@ -9,6 +9,60 @@ body {
     margin: 0 auto;
 }
 
+h1 {
+
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin-bottom: 90px;
+}
+
+h1 .lg {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    display: block;
+    letter-spacing: -3px;
+}
+
+h1 .sm {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 60px;
+}
+
+
+
+
+
+/*buttons*/
+
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    height: 42px;
+    padding: 11px 35px 0;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #f39c12;
+    text-decoration: none;
+    border-color: #f39c12;
+}
+
+
+
 header {
     position: absolute;
     top: 84px;
@@ -21,11 +75,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.banner {
-    height: 1100px;
-    background: url("../img/banner.png") no-repeat center top;
 }
 
 .logo a {
@@ -81,4 +130,17 @@ header {
 
 .menu_link:hover {
     color: #0d0d0d;
+}
+
+
+
+
+/*Banner*/
+
+.banner {
+    height: 1100px;
+    background: url("../img/banner.png") no-repeat center top;
+    padding-top: 450px;
+    padding-bottom: 280px;
+    text-align: center;
 }
