@@ -58,6 +58,7 @@ h6 {
 
 
 
+
 /*buttons*/
 
 .btn {
@@ -171,6 +172,7 @@ header {
 
 
 
+
 /*Banner*/
 
 .banner {
@@ -239,6 +241,9 @@ header {
 }
 
 .about-wrap-content-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex: none;
     width: 128px;
     height: 128px;
@@ -246,6 +251,7 @@ header {
     border: 2px solid #f39c12;
     background-color: #ffffff;
     border-radius: 50%;
+    font-size: 40px;
 }
 
 .about-wrap-content-text h6 {
