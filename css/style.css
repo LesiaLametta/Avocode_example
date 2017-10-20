@@ -6,6 +6,7 @@ body {
 
 .wrapper {
     max-width: 1250px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 40px;
 }
@@ -41,6 +42,13 @@ h6 {
     line-height: 25px;
     text-transform: uppercase;
 }
+
+
+
+
+
+
+
 
 
 
@@ -177,6 +185,13 @@ header {
 .menu_link:hover {
     color: #0d0d0d;
 }
+
+
+
+
+
+
+
 
 
 
@@ -360,6 +375,13 @@ header {
 
 
 
+
+
+
+
+
+
+
 /*box skills*/
 
 .box-skills {
@@ -385,6 +407,13 @@ header {
 .box-skills_item--content {
     padding-left: 35px;
 }
+
+
+
+
+
+
+
 
 
 
@@ -472,6 +501,13 @@ header {
 
 
 
+
+
+
+
+
+
+
 /*quotes*/
 
 .quote {
@@ -534,6 +570,13 @@ header {
     background-color: #f39c12;
     margin: 0 auto 20px;
 }
+
+
+
+
+
+
+
 
 
 
@@ -642,4 +685,53 @@ header {
 
 .social_link:hover {
     color: #f39c12;
+}
+
+.facts-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.facts-list_item:hover .facts-list_icon {
+    border-color: #ffffff;
+}
+
+.facts-list_item:hover .facts-list_icon [class*="icon"]:before {
+    color: #f39c12;
+}
+
+.facts-list_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+    width: 173px;
+    height: 173px;
+    border: 2px solid #f39c12;
+    color: #f39c12;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.3s;
+}
+
+
+
+.facts-list_icon [class*="icon"]:before {
+    color: #ffffff;
+    transition: all 0.3s;
+}
+
+.facts-list h5 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 29px;
+}
+
+.facts-list h5 span {
+    font-size: 45px;
+    display: block;
+    line-height: 45px;
 }
