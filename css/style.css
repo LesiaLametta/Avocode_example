@@ -48,49 +48,6 @@ h6 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*buttons*/
 
 .btn {
@@ -191,51 +148,6 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Banner*/
 
 .banner {
@@ -246,9 +158,6 @@ header {
     text-align: center;
 }
 
-.about {
-    padding: 100px 0;
-}
 
 .heading {
     display: flex;
@@ -358,30 +267,6 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*box skills*/
 
 .box-skills {
@@ -407,30 +292,6 @@ header {
 .box-skills_item--content {
     padding-left: 35px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -475,6 +336,9 @@ header {
     background: #f49d09;
 }
 
+.section {
+    padding: 105px 0 100px;
+}
 
 .section-bg {
     height: 700px;
@@ -483,26 +347,6 @@ header {
     align-items: center;
     display: flex;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -577,25 +421,7 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*team*/
-
-.box-team {
-    padding: 105px 0 100px;
-}
 
 .team-list {
     display: flex;
@@ -734,4 +560,61 @@ header {
     font-size: 45px;
     display: block;
     line-height: 45px;
+}
+
+
+
+
+
+
+
+/*service*/
+
+.service-list {
+    display: flex;
+    text-align: center;
+    margin: 0 -15px;
+}
+
+.service-list_item {
+    padding: 0 15px;
+}
+
+.service-list_item:hover .service-list_icon {
+    background: #f39c12;
+}
+
+.service-list_item:hover .service-list_icon [class*="icon"]:before {
+    color: #ffffff;
+    transition: all 0.3s;
+}
+
+.service-list h6 {
+    margin-bottom: 25px;
+}
+
+.service-list p {
+    color: #737373;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.service-list_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    margin: 0 auto 30px;
+    width: 105px;
+    height: 105px;
+    border: 2px solid #f39c12;
+    color: #f39c12;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.3s;
+}
+
+.service-list_icon [class*="icon"]:before {
+    color: #0d0d0d;
+    transition: all 0.3s;
 }
