@@ -68,6 +68,9 @@ h6 {
 
 
 
+
+
+
 /*buttons*/
 
 .btn {
@@ -191,6 +194,9 @@ header {
 
 
 
+
+
+
 /*Banner*/
 
 .banner {
@@ -209,7 +215,8 @@ header {
     display: flex;
     -ms-align-items: center;
     align-items: center;
-    margin-bottom: 150px;
+    max-width: 90%;
+    margin: 0 auto 150px;
 }
 
 .heading h2 {
@@ -314,6 +321,9 @@ header {
 
 
 
+
+
+
 /*box skills*/
 
 .box-skills {
@@ -339,6 +349,9 @@ header {
 .box-skills_item--content {
     padding-left: 35px;
 }
+
+
+
 
 
 
@@ -386,11 +399,25 @@ header {
 }
 
 
+.section-bg {
+    height: 700px;
+    background: url("../img/quote.png") no-repeat center top;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+}
+
+
 
 
 
 
 /*quotes*/
+
+.quote {
+    text-align: center;
+    color: #ffffff;
+}
 
 .box-quote {
     padding: 250px 0;
@@ -446,4 +473,11 @@ header {
     height: 4px;
     background-color: #f39c12;
     margin: 0 auto 20px;
+}
+
+
+/*team*/
+
+.box-team {
+    padding: 105px 0 100px;
 }
