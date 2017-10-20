@@ -75,6 +75,7 @@ h6 {
 
 
 
+
 /*buttons*/
 
 .btn {
@@ -169,6 +170,7 @@ header {
 .menu_link:hover {
     color: #0d0d0d;
 }
+
 
 
 
@@ -336,6 +338,7 @@ header {
 
 
 
+
 /*box skills*/
 
 .box-skills {
@@ -361,6 +364,7 @@ header {
 .box-skills_item--content {
     padding-left: 35px;
 }
+
 
 
 
@@ -422,6 +426,7 @@ header {
     align-items: center;
     display: flex;
 }
+
 
 
 
@@ -500,6 +505,7 @@ header {
 
 
 
+
 /*team*/
 
 .box-team {
@@ -515,6 +521,12 @@ header {
 .team-list_item {
     width: 269px;
     padding: 25px 15px 30px;
+    border-top: 4px solid transparent;
+}
+
+.team-list_item:hover {
+    background-color: #f0f0f0;
+    border-color: #f39c12;
 }
 
 .team-list_img {
