@@ -43,6 +43,14 @@ h6 {
     text-transform: uppercase;
 }
 
+.hr {
+    height: 3px;
+    margin: 120px 0;
+    background-color: #e6e6e6;
+}
+
+
+
 
 
 
@@ -148,6 +156,8 @@ header {
 
 
 
+
+
 /*Banner*/
 
 .banner {
@@ -202,8 +212,6 @@ header {
 .about-wrap {
     display: flex;
     align-items: flex-start;
-    border-bottom: 2px solid #e6e6e6;
-    padding-bottom: 120px;
 }
 
 .about-wrap-content {
@@ -267,11 +275,12 @@ header {
 
 
 
+
+
 /*box skills*/
 
 .box-skills {
     display: flex;
-    margin-top: 120px;
 }
 
 .box-skills_item {
@@ -292,6 +301,8 @@ header {
 .box-skills_item--content {
     padding-left: 35px;
 }
+
+
 
 
 
@@ -347,6 +358,8 @@ header {
     align-items: center;
     display: flex;
 }
+
+
 
 
 
@@ -414,6 +427,8 @@ header {
     background-color: #f39c12;
     margin: 0 auto 20px;
 }
+
+
 
 
 
@@ -561,6 +576,8 @@ header {
     display: block;
     line-height: 45px;
 }
+
+
 
 
 
