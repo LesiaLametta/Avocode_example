@@ -55,13 +55,6 @@ h6 {
 
 
 
-
-
-
-
-
-
-
 /*buttons*/
 
 .btn {
@@ -161,6 +154,9 @@ header {
 .menu_link:hover {
     color: #0d0d0d;
 }
+
+
+
 
 
 
@@ -294,12 +290,6 @@ header {
 
 
 
-
-
-
-
-
-
 /*box skills*/
 
 .box-skills {
@@ -324,13 +314,6 @@ header {
 .box-skills_item--content {
     padding-left: 35px;
 }
-
-
-
-
-
-
-
 
 
 
@@ -387,13 +370,6 @@ header {
     align-items: center;
     display: flex;
 }
-
-
-
-
-
-
-
 
 
 
@@ -462,14 +438,6 @@ header {
     background-color: #f39c12;
     margin: 0 auto 20px;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -617,15 +585,6 @@ header {
     display: block;
     line-height: 45px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -792,4 +751,50 @@ header {
 .pricing-footer .btn {
     height: 38px;
     padding: 9px 33px 0;
+}
+
+
+
+
+/*testimonial*/
+
+.testimonial {
+    text-align: center;
+    color: #fff;
+}
+
+.testimonial_text {
+    margin: 35px 0 25px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 30px;
+}
+
+.testimonial .quote_author:before {
+    display: none;
+}
+
+
+.testimonial .quote_author:after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #f39c12;
+    margin: 20px auto 0;
+}
+
+.testimonial_avatar {
+    width: 104px;
+    height: 104px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.testimonial_avatar img {
+    display: block;
+    width: 100%;
 }
