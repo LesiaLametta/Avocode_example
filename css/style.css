@@ -56,6 +56,9 @@ h6 {
 
 
 
+
+
+
 /*buttons*/
 
 .btn {
@@ -71,6 +74,11 @@ h6 {
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.btn-warning {
+    color: #0d0d0d;
+    border-color: #f39c12;
 }
 
 .btn:hover {
@@ -150,6 +158,9 @@ header {
 .menu_link:hover {
     color: #0d0d0d;
 }
+
+
+
 
 
 
@@ -277,6 +288,9 @@ header {
 
 
 
+
+
+
 /*box skills*/
 
 .box-skills {
@@ -301,6 +315,9 @@ header {
 .box-skills_item--content {
     padding-left: 35px;
 }
+
+
+
 
 
 
@@ -358,6 +375,9 @@ header {
     align-items: center;
     display: flex;
 }
+
+
+
 
 
 
@@ -427,6 +447,9 @@ header {
     background-color: #f39c12;
     margin: 0 auto 20px;
 }
+
+
+
 
 
 
@@ -585,6 +608,9 @@ header {
 
 
 
+
+
+
 /*service*/
 
 .service-list {
@@ -606,11 +632,11 @@ header {
     transition: all 0.3s;
 }
 
-.service-list h6 {
+.service-list_item h6 {
     margin-bottom: 25px;
 }
 
-.service-list p {
+.service-list_item p {
     color: #737373;
     font-size: 16px;
     line-height: 28px;
@@ -634,4 +660,83 @@ header {
 .service-list_icon [class*="icon"]:before {
     color: #0d0d0d;
     transition: all 0.3s;
+}
+
+.box-pricing {
+    display: flex;
+}
+
+.box-pricing .service-list_icon {
+    margin-left: 0;
+    height: 125px;
+    width: 125px;
+    font-size: 32px;
+}
+
+.pricing {
+    display: flex;
+    text-align: center;
+}
+
+.pricing_item {
+    width: 250px;
+    border: 1px solid #e6e6e6;
+}
+
+.pricing_item:first-child {
+    border-right: none;
+}
+
+.pricing_item:last-child {
+    border-left: none;
+}
+
+.pricing-header {
+    padding: 25px 28px;
+}
+
+.pricing-header_title {
+    color: #0d0d0d;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.pricing-header_title span:before {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #f39c12;
+    margin: 5px auto;
+}
+
+.pricing-list {
+    list-style: none;
+}
+
+.pricing-list li {
+    color: #737373;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 15px;
+    border-top: 1px solid #e6e6e6;
+}
+
+.pricing-list li:last-child {
+    border-bottom: 1px solid#e6e6e6;
+}
+
+.pricing-list li:nth-child(odd) {
+    background: #fafafa;
+}
+
+.pricing-footer {
+    padding: 34px 28px;
+}
+
+.pricing-footer .btn {
+    height: 38px;
+    padding: 9px 33px 0;
 }
