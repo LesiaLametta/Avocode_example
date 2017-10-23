@@ -56,6 +56,8 @@ h6 {
 
 
 
+
+
 /*buttons*/
 
 .btn {
@@ -155,6 +157,8 @@ header {
 .menu_link:hover {
     color: #0d0d0d;
 }
+
+
 
 
 
@@ -295,6 +299,8 @@ header {
 
 
 
+
+
 /*box skills*/
 
 .box-skills {
@@ -319,6 +325,8 @@ header {
 .box-skills_item--content {
     padding-left: 35px;
 }
+
+
 
 
 
@@ -376,6 +384,8 @@ header {
     align-items: center;
     display: flex;
 }
+
+
 
 
 
@@ -445,6 +455,8 @@ header {
     background-color: #f39c12;
     margin: 0 auto 20px;
 }
+
+
 
 
 
@@ -593,6 +605,8 @@ header {
     display: block;
     line-height: 45px;
 }
+
+
 
 
 
@@ -766,6 +780,8 @@ header {
 
 
 
+
+
 /*testimonial*/
 
 .testimonial {
@@ -807,4 +823,44 @@ header {
 .testimonial_avatar img {
     display: block;
     width: 100%;
+}
+
+.nav-tab-list {
+    list-style: none;
+    text-align: center;
+}
+
+.nav-tab-list_item {
+    display: inline-block;
+}
+
+.nav-tab-list_item.active .nav-tab-list_link {
+    color: #f39c12;
+}
+
+.nav-tab-list_item:after {
+    content: '\\\\';
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #a6a6a6;
+    margin: 0 18px;
+}
+
+.nav-tab-list_item:last-child:after {
+    display: none;
+}
+
+.nav-tab-list_link {
+    color: #0d0d0d;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.nav-tab-list_link:hover {
+    color: #f39c12;
 }
