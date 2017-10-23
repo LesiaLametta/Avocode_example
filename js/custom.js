@@ -1,4 +1,4 @@
-$(function(){
+/*$(function(){
 
 	var hf = function(){
 		var h_header = $('header').height();
@@ -11,8 +11,15 @@ $(function(){
 
 	$(window).bind('load resize', hf);
 
+});*/
+
+$(function() {
+    $('.tabs a').click(function() {
+        $(this).parents('.tab-wrap').find('.tab-cont').addClass('hide');
+        $(this).parent().siblings().removeClass('active');
+        var id = $(this).attr('href');
+        $(id).removeClass('hide');
+        $(this).parent().addClass('active');
+        return false
+    });
 });
-
-   
-
-
