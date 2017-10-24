@@ -62,6 +62,12 @@ h6 {
 
 
 
+
+
+
+
+
+
 /*buttons*/
 
 .btn {
@@ -161,6 +167,12 @@ header {
 .menu_link:hover {
     color: #0d0d0d;
 }
+
+
+
+
+
+
 
 
 
@@ -313,6 +325,12 @@ header {
 
 
 
+
+
+
+
+
+
 /*box skills*/
 
 .box-skills {
@@ -337,6 +355,12 @@ header {
 .box-skills_item--content {
     padding-left: 35px;
 }
+
+
+
+
+
+
 
 
 
@@ -413,6 +437,12 @@ header {
 
 
 
+
+
+
+
+
+
 /*quotes*/
 
 .quote {
@@ -475,6 +505,12 @@ header {
     background-color: #f39c12;
     margin: 0 auto 20px;
 }
+
+
+
+
+
+
 
 
 
@@ -629,6 +665,12 @@ header {
     display: block;
     line-height: 45px;
 }
+
+
+
+
+
+
 
 
 
@@ -803,6 +845,12 @@ header {
     height: 38px;
     padding: 9px 33px 0;
 }
+
+
+
+
+
+
 
 
 
@@ -1018,4 +1066,56 @@ header {
 
 .portfolio-list_preview:hover {
     background-color: rgba(243, 156, 18, 0.8)
+}
+
+
+
+
+
+
+
+/*tweet*/
+
+.tweet {
+    text-align: center;
+    color: #fff;
+}
+
+.tweet-wrap_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 104px;
+    height: 104px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+.tweet-wrap_icon img {
+    display: block;
+}
+
+.tweet-wrap_text {
+    margin: 35px 0 6px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px
+}
+
+.tweet-wrap_text a {
+    color: #f39c12;
+}
+
+.tweet-wrap_text a:hover {
+    text-decoration: underline;
+}
+
+.tweet-wrap_time {
+    color: #808080;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 38px;
 }
