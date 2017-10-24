@@ -68,6 +68,12 @@ h6 {
 
 
 
+
+
+
+
+
+
 /*buttons*/
 
 .btn {
@@ -167,6 +173,12 @@ header {
 .menu_link:hover {
     color: #0d0d0d;
 }
+
+
+
+
+
+
 
 
 
@@ -331,6 +343,12 @@ header {
 
 
 
+
+
+
+
+
+
 /*box skills*/
 
 .box-skills {
@@ -355,6 +373,12 @@ header {
 .box-skills_item--content {
     padding-left: 35px;
 }
+
+
+
+
+
+
 
 
 
@@ -443,6 +467,12 @@ header {
 
 
 
+
+
+
+
+
+
 /*quotes*/
 
 .quote {
@@ -505,6 +535,12 @@ header {
     background-color: #f39c12;
     margin: 0 auto 20px;
 }
+
+
+
+
+
+
 
 
 
@@ -665,6 +701,12 @@ header {
     display: block;
     line-height: 45px;
 }
+
+
+
+
+
+
 
 
 
@@ -845,6 +887,12 @@ header {
     height: 38px;
     padding: 9px 33px 0;
 }
+
+
+
+
+
+
 
 
 
@@ -1074,6 +1122,12 @@ header {
 
 
 
+
+
+
+
+
+
 /*tweet*/
 
 .tweet {
@@ -1118,4 +1172,112 @@ header {
     font-weight: 300;
     font-style: italic;
     line-height: 38px;
+}
+
+
+
+
+
+
+
+/*blog*/
+
+.blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog-list_item {
+    width: 550px;
+    margin-bottom: 60px;
+}
+
+.blog-list_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    background-color: #b7b7b7;
+    font-size: 58px;
+}
+
+.blog-list_img img {
+    width: 100%;
+    display: block;
+    min-height: 300px;
+}
+
+.blog-list_img:hover .blog-list_title {
+    color: #f39c12;
+}
+
+.blog-list_link {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.blog-list_header {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+.blog-list_title {
+    background: #fff;
+    padding: 25px 20px 10px;
+}
+
+.blog-list_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: #f39c12;
+    font-size: 18px;
+    color: #fff;
+}
+
+.blog-list_footer {
+    display: flex;
+    padding-top: 20px;
+}
+
+.blog-list_date {
+    text-align: right;
+    color: #808080;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.blog-list_date span {
+    display: block;
+    white-space: nowrap;
+}
+
+.blog-list_info {
+    padding: 0 17px 0 40px;
+}
+
+.blog-list_info p {
+    padding-bottom: 28px;
+    color: #737373;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.blog-list_info .btn {
+    height: 35px;
+    font-size: 14px;
+    padding: 8px 27px 0;
 }
