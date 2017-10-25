@@ -2,6 +2,7 @@ body {
     color: #4d4d4d;
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 16px;
+    line-height: 1;
 }
 
 .wrapper {
@@ -43,11 +44,16 @@ h6 {
     text-transform: uppercase;
 }
 
+p {
+    line-height: 28px;
+}
+
 .hr {
     height: 3px;
     margin: 120px 0;
     background-color: #e6e6e6;
 }
+
 
 
 
@@ -175,6 +181,7 @@ header {
 .menu_link:hover {
     color: #0d0d0d;
 }
+
 
 
 
@@ -338,6 +345,7 @@ header {
 
 
 
+
 /*box skills*/
 
 .box-skills {
@@ -362,6 +370,7 @@ header {
 .box-skills_item--content {
     padding-left: 35px;
 }
+
 
 
 
@@ -466,6 +475,7 @@ header {
 
 
 
+
 /*quotes*/
 
 .quote {
@@ -528,6 +538,7 @@ header {
     background-color: #f39c12;
     margin: 0 auto 20px;
 }
+
 
 
 
@@ -734,6 +745,7 @@ header {
 
 
 
+
 /*service*/
 
 .service-list {
@@ -895,6 +907,7 @@ header {
     height: 38px;
     padding: 9px 33px 0;
 }
+
 
 
 
@@ -1140,6 +1153,7 @@ header {
 
 
 
+
 /*tweet*/
 
 .tweet {
@@ -1185,6 +1199,7 @@ header {
     font-style: italic;
     line-height: 38px;
 }
+
 
 
 
