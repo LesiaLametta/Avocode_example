@@ -74,6 +74,7 @@ h6 {
 
 
 
+
 /*buttons*/
 
 .btn {
@@ -173,22 +174,6 @@ header {
 .menu_link:hover {
     color: #0d0d0d;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -349,6 +334,7 @@ header {
 
 
 
+
 /*box skills*/
 
 .box-skills {
@@ -373,6 +359,7 @@ header {
 .box-skills_item--content {
     padding-left: 35px;
 }
+
 
 
 
@@ -448,6 +435,7 @@ header {
     align-items: center;
     display: flex;
 }
+
 
 
 
@@ -561,6 +549,7 @@ header {
 
 
 
+
 /*team*/
 
 .team-list {
@@ -570,6 +559,8 @@ header {
 }
 
 .team-list_item {
+    display: flex;
+    flex-direction: column;
     width: 269px;
     padding: 25px 15px 30px;
     border-top: 4px solid transparent;
@@ -585,8 +576,17 @@ header {
     background-color: #e74c3c;
 }
 
+.team-list_item .social {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
 .team-list_img {
     display: flex;
+    flex: none;
     align-items: center;
     justify-content: center;
     font-size: 62px;
@@ -701,6 +701,7 @@ header {
     display: block;
     line-height: 45px;
 }
+
 
 
 
@@ -887,6 +888,7 @@ header {
     height: 38px;
     padding: 9px 33px 0;
 }
+
 
 
 
@@ -1128,6 +1130,7 @@ header {
 
 
 
+
 /*tweet*/
 
 .tweet {
@@ -1173,6 +1176,7 @@ header {
     font-style: italic;
     line-height: 38px;
 }
+
 
 
 
