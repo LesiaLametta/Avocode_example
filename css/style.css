@@ -71,31 +71,6 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*buttons*/
 
 .btn {
@@ -455,30 +430,6 @@ header {
 .box-skills_item--content {
     padding-left: 35px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1473,7 +1424,7 @@ header {
     border-color: rgba(255, 255, 255, 0.8);
 }
 
-..clients-list_item img {
+.clients-list_item img {
     max-width: 100%;
     display: block;
 }
