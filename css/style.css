@@ -71,6 +71,7 @@ p {
 
 
 
+
 /*buttons*/
 
 .btn {
@@ -110,6 +111,7 @@ input.btn,
 button.btn {
     padding-top: 0 !important;
 }
+
 
 
 
@@ -261,6 +263,7 @@ header {
 
 
 
+
 /*Banner*/
 
 .banner {
@@ -269,6 +272,18 @@ header {
     padding-top: 450px;
     padding-bottom: 280px;
     text-align: center;
+}
+
+.banner:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #fff;
+    border-left: 100vw solid transparent;
 }
 
 
@@ -406,6 +421,7 @@ header {
 
 
 
+
 /*box skills*/
 
 .box-skills {
@@ -430,6 +446,7 @@ header {
 .box-skills_item--content {
     padding-left: 35px;
 }
+
 
 
 
@@ -490,6 +507,7 @@ header {
     align-items: center;
     display: flex;
 }
+
 
 
 
@@ -586,6 +604,7 @@ header {
     background-color: #f39c12;
     margin: 0 auto 20px;
 }
+
 
 
 
@@ -806,6 +825,7 @@ header {
 
 
 
+
 /*service*/
 
 .service-list {
@@ -967,6 +987,7 @@ header {
     height: 38px;
     padding: 9px 33px 0;
 }
+
 
 
 
@@ -1226,6 +1247,7 @@ header {
 
 
 
+
 /*tweet*/
 
 .tweet {
@@ -1271,6 +1293,7 @@ header {
     font-style: italic;
     line-height: 38px;
 }
+
 
 
 
@@ -1395,6 +1418,7 @@ header {
 
 
 
+
 /*clients*/
 
 .clients h2 {
@@ -1428,6 +1452,7 @@ header {
     max-width: 100%;
     display: block;
 }
+
 
 
 
@@ -1496,4 +1521,33 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+
+
+/*map*/
+
+#map {
+    overflow: hidden;
+    position: relative;
+}
+
+#map:after,
+#map:before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #fff;
+    border-left: 100vw solid transparent;
+}
+
+#map:before {
+    top: 0;
+    right: 0;
+    transform: rotate(180deg);
 }

@@ -27,25 +27,31 @@
 .icon-banknote:before {
   content: "\e900";
 }
+
 .icon-bulb:before {
   content: "\e901";
 }
+
 .icon-camera1:before {
   content: "\e902";
   color: #fff;
 }
+
 .icon-cup:before {
   content: "\e903";
   color: #fff;
 }
+
 .icon-film:before {
   content: "\e904";
   color: #fff;
 }
+
 .icon-handset:before {
   content: "\e905";
   color: #f7f7f7;
 }
+
 .icon-lab:before {
   content: "\e906";
   color: #fff;
@@ -54,52 +60,65 @@
   content: "\e907";
   color: #fff;
 }
+
 .icon-mail:before {
   content: "\e908";
   color: #808080;
 }
+
 .icon-params:before {
   content: "\e909";
 }
+
 .icon-pen:before {
   content: "\e90a";
   color: #808080;
 }
+
 .icon-shape-1:before {
   content: "\e90b";
   color: #fff;
 }
+
 .icon-shape-2:before {
   content: "\e90c";
   color: #fff;
 }
+
 .icon-shape-4-copy:before {
   content: "\e90d";
   color: #fff;
 }
+
 .icon-slideshow:before {
   content: "\e90e";
   color: #fff;
 }
+
 .icon-stack:before {
   content: "\e90f";
   color: #f39c12;
 }
+
 .icon-star:before {
   content: "\e910";
 }
+
 .icon-user:before {
   content: "\e911";
   color: #808080;
 }
+
 .icon-user1:before {
   content: "\e912";
   color: #fff;
 }
+
 .icon-user2:before {
   content: "\e913";
   color: #fff;
 }
+
 .icon-world:before {
   content: "\e914";
 }
