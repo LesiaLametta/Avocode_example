@@ -280,6 +280,10 @@ header {
     text-align: center;
 }
 
+.banner-slider .slick-dots {
+    margin-top: 80px;
+}
+
 
 
 .heading {

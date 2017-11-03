@@ -22,4 +22,9 @@ $(function() {
         $(this).parent().addClass('active');
         return false
     });
+
+    $('.banner-slider').slick({
+        arrows: false,
+        dots: true,
+    })
 });
