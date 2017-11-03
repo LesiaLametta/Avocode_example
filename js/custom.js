@@ -23,7 +23,7 @@ $(function() {
         return false
     });
 
-    $('.banner-slider').slick({
+    $('.banner-slider, .testimonial-slider').slick({
         arrows: false,
         dots: true,
     })
