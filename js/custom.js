@@ -1,17 +1,3 @@
-/*$(function(){
-
-	var hf = function(){
-		var h_header = $('header').height();
-		var h_footer = $('footer').height();
-		$('.content').css({
-			'paddingTop': h_header,
-			'paddingBottom': h_footer
-		});
-	}
-
-	$(window).bind('load resize', hf);
-
-});*/
 
 $(function() {
     $('.tabs a').click(function() {
@@ -26,5 +12,12 @@ $(function() {
     $('.banner-slider, .testimonial-slider').slick({
         arrows: false,
         dots: true,
+    });
+
+    $('.portfolio-slider').slick({
+        dots: true,
+        appendArrows: '.portfolio-slider_buttons',
+        prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-chevron-left"></i></button>',
+        nextArrow: '<button type="button" class="slick-next"><i class="fa fa-chevron-right"></i></button>'
     })
 });
