@@ -2190,6 +2190,10 @@ header {
         border-left: 1px solid#e6e6e6;
         margin-top: 0;
     }
+    .testimonial_text {
+        font-size: 18px;
+        line-height: 24px;
+    }
 }
 
 @media (max-width: 479px) {
