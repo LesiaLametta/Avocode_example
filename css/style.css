@@ -80,6 +80,8 @@ p {
 
 
 
+
+
 /*buttons*/
 
 .btn {
@@ -120,6 +122,8 @@ input.btn,
 button.btn {
     padding-top: 0 !important;
 }
+
+
 
 
 
@@ -268,6 +272,8 @@ header {
 .menu_link:hover {
     color: #0d0d0d;
 }
+
+
 
 
 
@@ -496,6 +502,8 @@ header {
 
 
 
+
+
 /*box skills*/
 
 .box-skills {
@@ -524,6 +532,8 @@ header {
 .box-skills_item--content {
     padding-left: 35px;
 }
+
+
 
 
 
@@ -641,6 +651,8 @@ header {
 
 
 
+
+
 /*quotes*/
 
 .quote {
@@ -703,6 +715,8 @@ header {
     background-color: #f39c12;
     margin: 0 auto 20px;
 }
+
+
 
 
 
@@ -980,6 +994,8 @@ header {
 
 
 
+
+
 /*service*/
 
 .service-list {
@@ -1199,6 +1215,8 @@ header {
 
 
 
+
+
 /*testimonial*/
 
 .testimonial-slider .slick-dots {
@@ -1307,6 +1325,8 @@ header {
 .tab-cont.hide {
     opacity: 0;
 }
+
+
 
 
 
@@ -1501,6 +1521,8 @@ header {
 
 
 
+
+
 /*tweet*/
 
 .tweet {
@@ -1552,6 +1574,8 @@ header {
     font-style: italic;
     line-height: 38px;
 }
+
+
 
 
 
@@ -1717,6 +1741,8 @@ header {
 
 
 
+
+
 /*clients*/
 
 .clients h2 {
@@ -1727,14 +1753,18 @@ header {
 
 .clients-list {
     list-style: none;
+    margin: 0 -10px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+}
+
+.clients-list_item {
+    width: 257px;
+    margin: 0 10px 20px;
 }
 
 .clients-list_item a {
@@ -1747,7 +1777,6 @@ header {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 257px;
     height: 162px;
     padding: 15px;
     border: 2px solid rgba(255, 255, 255, 0.25);
@@ -1759,8 +1788,11 @@ header {
 
 .clients-list_item img {
     max-width: 100%;
+    max-height: 100%;
     display: block;
 }
+
+
 
 
 
@@ -1848,6 +1880,8 @@ header {
     -ms-flex-pack: center;
     justify-content: center;
 }
+
+
 
 
 
@@ -1974,6 +2008,9 @@ header {
     .pricing_item {
         width: 210px;
     }
+    .clients-list_item a {
+        height: 130px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -2060,7 +2097,9 @@ header {
     .sevice-list_item {
         padding: 0 10px;
     }
-    .service-list_item p, .contact-wrap p, .contact-list_item{
+    .service-list_item p,
+    .contact-wrap p,
+    .contact-list_item {
         font-size: 14px;
         line-height: 22px;
     }
@@ -2085,6 +2124,9 @@ header {
     }
     .contact-wrap_right {
         padding-left: 30px;
+    }
+    .clients-list_item a {
+        height: 115px;
     }
 }
 
@@ -2176,7 +2218,8 @@ header {
     .service-list {
         display: block;
     }
-    .service-list_item, .box-pricing .service-list_item {
+    .service-list_item,
+    .box-pricing .service-list_item {
         margin: 0 auto 40px;
         max-width: 420px;
     }
@@ -2207,6 +2250,20 @@ header {
     .contact-wrap_right {
         padding-left: 0;
         width: auto;
+    }
+    .clients_list {
+        display: block;
+        text-align: center;
+    }
+    .clients_list_item {
+        display: inline-block;
+        vertical-align: top;
+    }
+    #map{
+        height: 350px;
+    }
+    #map:before, #map:after {
+        display: none;
     }
 }
 
