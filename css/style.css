@@ -2076,6 +2076,13 @@ header {
     .box-pricing .service-list_icon {
         margin-left: auto;
     }
+    .pricing {
+        margin-left: 0;
+    }
+    .pricing_item {
+        width: auto;
+        flex: 1;
+    }
 }
 
 @media (max-width: 767px) {
@@ -2166,9 +2173,22 @@ header {
     .service-list {
         display: block;
     }
-    .service-list_item {
+    .service-list_item, .box-pricing .service-list_item {
         margin: 0 auto 40px;
         max-width: 420px;
+    }
+    .pricing {
+        display: block;
+        margin: 0 auto;
+        max-width: 420px;
+    }
+    .pricing_item:first-child {
+        border-right: 1px solid#e6e6e6;
+        margin-top: 0;
+    }
+    .pricing_item:last-child {
+        border-left: 1px solid#e6e6e6;
+        margin-top: 0;
     }
 }
 
