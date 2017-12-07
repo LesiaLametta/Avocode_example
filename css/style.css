@@ -2060,7 +2060,7 @@ header {
     .sevice-list_item {
         padding: 0 10px;
     }
-    .service-list_item p {
+    .service-list_item p, .contact-wrap p, .contact-list_item{
         font-size: 14px;
         line-height: 22px;
     }
@@ -2082,6 +2082,9 @@ header {
     .pricing_item {
         width: auto;
         flex: 1;
+    }
+    .contact-wrap_right {
+        padding-left: 30px;
     }
 }
 
@@ -2193,6 +2196,17 @@ header {
     .testimonial_text {
         font-size: 18px;
         line-height: 24px;
+    }
+    .contact-wrap {
+        display: block;
+    }
+    .contact-wrap_left {
+        width: auto;
+        margin-bottom: 40px;
+    }
+    .contact-wrap_right {
+        padding-left: 0;
+        width: auto;
     }
 }
 
